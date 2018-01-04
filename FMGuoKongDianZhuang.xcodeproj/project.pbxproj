@@ -1,0 +1,1307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B320C01FEE1B6CB8119C209 /* libPods-FMGuoKongDianZhuang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4B4694FDA7C0160EB2A43B /* libPods-FMGuoKongDianZhuang.a */; };
+		8D06C29D1FFCCB3900B814C1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C29C1FFCCB3900B814C1 /* libc++.tbd */; };
+		8D06C29F1FFCCB4200B814C1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C29E1FFCCB4200B814C1 /* libz.tbd */; };
+		8D06C2A11FFCCB5D00B814C1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2A01FFCCB5D00B814C1 /* CoreTelephony.framework */; };
+		8D06C2A31FFCCBA200B814C1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2A21FFCCBA100B814C1 /* CoreMotion.framework */; };
+		8D06C2A51FFCCBAB00B814C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2A41FFCCBAB00B814C1 /* CFNetwork.framework */; };
+		8D06C2AC1FFDC43A00B814C1 /* GKPayResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D06C2AB1FFDC43A00B814C1 /* GKPayResultController.m */; };
+		8D06C2AF1FFDCD3F00B814C1 /* GKPayResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D06C2AE1FFDCD3F00B814C1 /* GKPayResultCell.m */; };
+		8D06C2BD1FFE100400B814C1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D06C2B71FFE100400B814C1 /* README.txt */; };
+		8D06C2BE1FFE100400B814C1 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2B91FFE100400B814C1 /* libWeChatSDK.a */; };
+		8D06C2BF1FFE100400B814C1 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D06C2BB1FFE100400B814C1 /* AlipaySDK.bundle */; };
+		8D06C2C01FFE100400B814C1 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2BC1FFE100400B814C1 /* AlipaySDK.framework */; };
+		8D06C2C21FFE110000B814C1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2C11FFE110000B814C1 /* libsqlite3.0.tbd */; };
+		8D06C2C41FFE110D00B814C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D06C2C31FFE110D00B814C1 /* Security.framework */; };
+		8D5E97FF1FC525BB00B0A80E /* FMDropToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E97FE1FC525BB00B0A80E /* FMDropToast.m */; };
+		8D5E983C1FC555CB00B0A80E /* GKBaoxiuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E983A1FC555CB00B0A80E /* GKBaoxiuCell.m */; };
+		8D5E983D1FC555CB00B0A80E /* GKBaoxiuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E983B1FC555CB00B0A80E /* GKBaoxiuCell.xib */; };
+		8D5E98401FC55B8900B0A80E /* GKBaoxiuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E983F1FC55B8900B0A80E /* GKBaoxiuController.m */; };
+		8D5E98431FC5602400B0A80E /* GKBaoxiuInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98421FC5602400B0A80E /* GKBaoxiuInfoCell.m */; };
+		8D5E98461FC5663100B0A80E /* GKBaoxiuTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98451FC5663100B0A80E /* GKBaoxiuTextViewCell.m */; };
+		8D5E98491FC56D6900B0A80E /* GKNoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98481FC56D6900B0A80E /* GKNoneController.m */; };
+		8D5E984C1FC5721600B0A80E /* GKBaoxiuResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E984B1FC5721600B0A80E /* GKBaoxiuResultController.m */; };
+		8D5E98521FC6663400B0A80E /* GKNickController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98511FC6663400B0A80E /* GKNickController.m */; };
+		8D5E98571FC66D7B00B0A80E /* YLBPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98531FC66D7B00B0A80E /* YLBPicker.m */; };
+		8D5E98581FC66D7B00B0A80E /* YLBDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98561FC66D7B00B0A80E /* YLBDatePicker.m */; };
+		8D5E98611FC67A9500B0A80E /* HZAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E985D1FC6791500B0A80E /* HZAreaPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D5E98621FC67A9500B0A80E /* HZLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98601FC6791500B0A80E /* HZLocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D5E98631FC67B5400B0A80E /* HZAreaPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E985E1FC6791500B0A80E /* HZAreaPickerView.xib */; };
+		8D5E98641FC67B9000B0A80E /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E985A1FC6791500B0A80E /* area.plist */; };
+		8D5E98651FC67B9000B0A80E /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E985B1FC6791500B0A80E /* city.plist */; };
+		8D5E98681FC69DBD00B0A80E /* YLBNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98661FC69DBD00B0A80E /* YLBNetworkingManager.m */; };
+		8D5E986B1FC69FA400B0A80E /* GKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E986A1FC69FA400B0A80E /* GKProgressHUD.m */; };
+		8D5E986E1FC6C8B600B0A80E /* FMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E986D1FC6C8B600B0A80E /* FMLocationManager.m */; };
+		8D5E98711FC7B6E800B0A80E /* GKStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98701FC7B6E800B0A80E /* GKStateModel.m */; };
+		8D5E98741FC7BC7F00B0A80E /* GKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98731FC7BC7F00B0A80E /* GKBaseModel.m */; };
+		8D5E98771FC7C7FA00B0A80E /* GKPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98761FC7C7FA00B0A80E /* GKPointAnnotation.m */; };
+		8D5E987A1FC7CCA900B0A80E /* GKHomeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98791FC7CCA900B0A80E /* GKHomeBottomView.m */; };
+		8D5E987D1FC7F51100B0A80E /* GKDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E987C1FC7F51100B0A80E /* GKDeviceModel.m */; };
+		8D5E98801FC8062100B0A80E /* GKPinglunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E987F1FC8062100B0A80E /* GKPinglunModel.m */; };
+		8D5E98831FC98AF500B0A80E /* GKChargeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98821FC98AF500B0A80E /* GKChargeController.m */; };
+		8D5E98861FC98B7F00B0A80E /* GKTerminalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98851FC98B7F00B0A80E /* GKTerminalInfoView.m */; };
+		8D5E98891FCA531600B0A80E /* GKPayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98881FCA531600B0A80E /* GKPayController.m */; };
+		8D5E988C1FCA534700B0A80E /* GKPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E988B1FCA534700B0A80E /* GKPayCell.m */; };
+		8D5E98901FCA5ACA00B0A80E /* GKSimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E988E1FCA5ACA00B0A80E /* GKSimpleCell.m */; };
+		8D5E98911FCA5ACA00B0A80E /* GKSimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E988F1FCA5ACA00B0A80E /* GKSimpleCell.xib */; };
+		8D5E98941FCAB72B00B0A80E /* GKPersonalZhanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98931FCAB72A00B0A80E /* GKPersonalZhanController.m */; };
+		8D5E98971FCABD1000B0A80E /* GKPersonalZhanDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98961FCABD1000B0A80E /* GKPersonalZhanDetailController.m */; };
+		8D5E989A1FCBE13900B0A80E /* GKPinglunTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98991FCBE13900B0A80E /* GKPinglunTopView.m */; };
+		8D5E989D1FCBE1F500B0A80E /* GKPinglunLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E989C1FCBE1F500B0A80E /* GKPinglunLinkView.m */; };
+		8D5E98A31FCBE47800B0A80E /* GKPinglunHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98A21FCBE47800B0A80E /* GKPinglunHeaderView.m */; };
+		8D5E98A61FCBE5AA00B0A80E /* GKPinglunZanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98A51FCBE5AA00B0A80E /* GKPinglunZanView.m */; };
+		8D5E98A91FCBFBF800B0A80E /* GKTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98A81FCBFBF800B0A80E /* GKTopicModel.m */; };
+		8D5E98AC1FCBFF2800B0A80E /* GKPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98AB1FCBFF2800B0A80E /* GKPublishController.m */; };
+		8D5E98AF1FCC034800B0A80E /* YLBPhotoWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98AD1FCC034700B0A80E /* YLBPhotoWall.m */; };
+		8D5E98B21FCC4EE600B0A80E /* GKMyPurseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98B11FCC4EE600B0A80E /* GKMyPurseController.m */; };
+		8D5E98B51FCC4FDA00B0A80E /* GKMyBalanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98B41FCC4FDA00B0A80E /* GKMyBalanceController.m */; };
+		8D5E98B81FCC523800B0A80E /* GKMyCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98B71FCC523800B0A80E /* GKMyCardController.m */; };
+		8D5E98BB1FCC52DF00B0A80E /* GKMyBillController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98BA1FCC52DF00B0A80E /* GKMyBillController.m */; };
+		8D5E98BE1FCC58FB00B0A80E /* GKPayChargeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98BD1FCC58FB00B0A80E /* GKPayChargeController.m */; };
+		8D5E98C11FCCFB6B00B0A80E /* GKDynamicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98C01FCCFB6B00B0A80E /* GKDynamicModel.m */; };
+		8D5E98C41FCD45C900B0A80E /* FMUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98C31FCD45C900B0A80E /* FMUserDefault.m */; };
+		8D5E98C71FCD605B00B0A80E /* GKChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98C61FCD605B00B0A80E /* GKChatView.m */; };
+		8D5E98CD1FCE8BE800B0A80E /* GKMyOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98CC1FCE8BE800B0A80E /* GKMyOrderController.m */; };
+		8D5E98D11FCF9BC400B0A80E /* GKOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98CF1FCF9BC400B0A80E /* GKOrderCell.m */; };
+		8D5E98D21FCF9BC400B0A80E /* GKOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E98D01FCF9BC400B0A80E /* GKOrderCell.xib */; };
+		8D5E98D51FCFC3F600B0A80E /* GKPingjiaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98D41FCFC3F600B0A80E /* GKPingjiaController.m */; };
+		8D5E98D81FCFD6E400B0A80E /* GKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E98D71FCFD6E400B0A80E /* GKStarView.m */; };
+		8D95FBFC1FB57D1D00342702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FBFB1FB57D1D00342702 /* AppDelegate.m */; };
+		8D95FC041FB57D1D00342702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D95FC031FB57D1D00342702 /* Assets.xcassets */; };
+		8D95FC0A1FB57D1D00342702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC091FB57D1D00342702 /* main.m */; };
+		8D95FC131FB5A66A00342702 /* GKBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC121FB5A66A00342702 /* GKBaseController.m */; };
+		8D95FC351FBA870500342702 /* GKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC341FBA870500342702 /* GKTabBarController.m */; };
+		8D95FC3B1FBA8CDF00342702 /* FMBubbleTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC3A1FBA8CDF00342702 /* FMBubbleTabbar.m */; };
+		8D95FC4E1FBA9AD100342702 /* GKMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC4D1FBA9AD100342702 /* GKMineController.m */; };
+		8D95FC511FBA9AE200342702 /* GKHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC501FBA9AE200342702 /* GKHomeController.m */; };
+		8D95FC541FBA9AF400342702 /* GKCommunityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC531FBA9AF400342702 /* GKCommunityController.m */; };
+		8D95FC571FBA9B0300342702 /* GKPersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC561FBA9B0300342702 /* GKPersonalController.m */; };
+		8D95FC601FBAC15200342702 /* GKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC5F1FBAC15200342702 /* GKNavigationController.m */; };
+		8D95FC631FBBD93E00342702 /* GKIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC621FBBD93E00342702 /* GKIntroView.m */; };
+		8D95FC661FBBDEF000342702 /* UIButton+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC651FBBDEF000342702 /* UIButton+Tools.m */; };
+		8D95FC691FBBE9A700342702 /* GKAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC681FBBE9A700342702 /* GKAddressView.m */; };
+		8D95FC6C1FBBEC2100342702 /* GKStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC6B1FBBEC2100342702 /* GKStatusView.m */; };
+		8D95FC731FBC168A00342702 /* GKDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC721FBC168A00342702 /* GKDetailController.m */; };
+		8D95FC771FBC42EE00342702 /* GKHomePushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC761FBC42EE00342702 /* GKHomePushTransition.m */; };
+		8D95FC7A1FBD2A5800342702 /* GKDetailPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC791FBD2A5800342702 /* GKDetailPopTransition.m */; };
+		8D95FC7D1FBD3F3600342702 /* GKLeftDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC7C1FBD3F3600342702 /* GKLeftDetailController.m */; };
+		8D95FC831FBD431400342702 /* GKBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC821FBD431400342702 /* GKBaseCell.m */; };
+		8D95FC861FBD5F1B00342702 /* GKDetailSection0Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC851FBD5F1A00342702 /* GKDetailSection0Cell.m */; };
+		8D95FC891FBD7A8300342702 /* GKDetailSection1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC881FBD7A8300342702 /* GKDetailSection1Cell.m */; };
+		8D95FC8C1FBD7FE000342702 /* GKDetailSection2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC8B1FBD7FDF00342702 /* GKDetailSection2Cell.m */; };
+		8D95FC8F1FBD851700342702 /* GKRightDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC8E1FBD851700342702 /* GKRightDetailController.m */; };
+		8D95FC921FBD93A100342702 /* GKPinglunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC911FBD93A100342702 /* GKPinglunCell.m */; };
+		8D95FC951FBE7C7200342702 /* GKButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC941FBE7C7100342702 /* GKButtonsView.m */; };
+		8D95FC991FBE852E00342702 /* GKTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC971FBE852E00342702 /* GKTopicCell.m */; };
+		8D95FC9A1FBE852E00342702 /* GKTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D95FC981FBE852E00342702 /* GKTopicCell.xib */; };
+		8D95FC9D1FBE88C900342702 /* GKTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC9C1FBE88C900342702 /* GKTopicController.m */; };
+		8D95FCA01FBE914A00342702 /* GKDynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FC9F1FBE914A00342702 /* GKDynamicController.m */; };
+		8D95FCA31FBEBAF900342702 /* GKDynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCA21FBEBAF900342702 /* GKDynamicCell.m */; };
+		8D95FCA61FC2973700342702 /* GKPersonDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCA51FC2973600342702 /* GKPersonDetailController.m */; };
+		8D95FCA91FC2A19C00342702 /* GKInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCA81FC2A19C00342702 /* GKInputCell.m */; };
+		8D95FCAC1FC2ACB000342702 /* GKBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCAB1FC2ACB000342702 /* GKBaseTextField.m */; };
+		8D95FCB31FC2CA7F00342702 /* GKPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCB11FC2CA7F00342702 /* GKPersonalCell.m */; };
+		8D95FCB41FC2CA7F00342702 /* GKPersonalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D95FCB21FC2CA7F00342702 /* GKPersonalCell.xib */; };
+		8D95FCB71FC2D59A00342702 /* GKMineInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCB61FC2D59A00342702 /* GKMineInfoController.m */; };
+		8D95FCBE1FC2DB9000342702 /* GKLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCBD1FC2DB9000342702 /* GKLoginController.m */; };
+		8D95FCC41FC2E93B00342702 /* GKInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCC31FC2E93B00342702 /* GKInputView.m */; };
+		8D95FCC71FC3CBA500342702 /* GKSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCC61FC3CBA500342702 /* GKSearchController.m */; };
+		8D95FCCA1FC3D95200342702 /* GKSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCC91FC3D95200342702 /* GKSearchCell.m */; };
+		8D95FCCD1FC3E2AC00342702 /* GKSortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCCC1FC3E2AC00342702 /* GKSortView.m */; };
+		8D95FCD01FC400D300342702 /* GKFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCCF1FC400D300342702 /* GKFilterView.m */; };
+		8D95FCD31FC401A400342702 /* GKFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95FCD21FC401A400342702 /* GKFlowView.m */; };
+		8DA3B5481FFB59BA00CD4E06 /* GKChangePwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3B5471FFB59BA00CD4E06 /* GKChangePwdController.m */; };
+		8DA3B54B1FFB5D3900CD4E06 /* GKRealAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3B54A1FFB5D3900CD4E06 /* GKRealAuthController.m */; };
+		8DA3B54E1FFB69BB00CD4E06 /* GKBindPhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3B54D1FFB69BB00CD4E06 /* GKBindPhoneController.m */; };
+		8DAF876D1FF0E02500ECD9A5 /* FMScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF876C1FF0E02500ECD9A5 /* FMScanController.m */; };
+		8DAF87701FF0E04D00ECD9A5 /* FMScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF876F1FF0E04D00ECD9A5 /* FMScanView.m */; };
+		8DAF87851FF3357E00ECD9A5 /* GKCarSupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF87841FF3357E00ECD9A5 /* GKCarSupportView.m */; };
+		8DAF87881FF3392A00ECD9A5 /* GKDetailSection3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF87871FF3392A00ECD9A5 /* GKDetailSection3Cell.m */; };
+		8DAF878B1FF380AE00ECD9A5 /* GKBaoxiuResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF878A1FF380AE00ECD9A5 /* GKBaoxiuResultCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A641D014E05FC92325700D2 /* Pods-FMGuoKongDianZhuang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMGuoKongDianZhuang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMGuoKongDianZhuang/Pods-FMGuoKongDianZhuang.debug.xcconfig"; sourceTree = "<group>"; };
+		8D06C29C1FFCCB3900B814C1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8D06C29E1FFCCB4200B814C1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8D06C2A01FFCCB5D00B814C1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8D06C2A21FFCCBA100B814C1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8D06C2A41FFCCBAB00B814C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8D06C2AA1FFDC43A00B814C1 /* GKPayResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPayResultController.h; sourceTree = "<group>"; };
+		8D06C2AB1FFDC43A00B814C1 /* GKPayResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPayResultController.m; sourceTree = "<group>"; };
+		8D06C2AD1FFDCD3F00B814C1 /* GKPayResultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPayResultCell.h; sourceTree = "<group>"; };
+		8D06C2AE1FFDCD3F00B814C1 /* GKPayResultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPayResultCell.m; sourceTree = "<group>"; };
+		8D06C2B51FFE100400B814C1 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		8D06C2B61FFE100400B814C1 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		8D06C2B71FFE100400B814C1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8D06C2B81FFE100400B814C1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		8D06C2B91FFE100400B814C1 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		8D06C2BB1FFE100400B814C1 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		8D06C2BC1FFE100400B814C1 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		8D06C2C11FFE110000B814C1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8D06C2C31FFE110D00B814C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D5E97FD1FC525BB00B0A80E /* FMDropToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDropToast.h; sourceTree = "<group>"; };
+		8D5E97FE1FC525BB00B0A80E /* FMDropToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDropToast.m; sourceTree = "<group>"; };
+		8D5E98391FC555CB00B0A80E /* GKBaoxiuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuCell.h; sourceTree = "<group>"; };
+		8D5E983A1FC555CB00B0A80E /* GKBaoxiuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuCell.m; sourceTree = "<group>"; };
+		8D5E983B1FC555CB00B0A80E /* GKBaoxiuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GKBaoxiuCell.xib; sourceTree = "<group>"; };
+		8D5E983E1FC55B8900B0A80E /* GKBaoxiuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuController.h; sourceTree = "<group>"; };
+		8D5E983F1FC55B8900B0A80E /* GKBaoxiuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuController.m; sourceTree = "<group>"; };
+		8D5E98411FC5602400B0A80E /* GKBaoxiuInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuInfoCell.h; sourceTree = "<group>"; };
+		8D5E98421FC5602400B0A80E /* GKBaoxiuInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuInfoCell.m; sourceTree = "<group>"; };
+		8D5E98441FC5663100B0A80E /* GKBaoxiuTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuTextViewCell.h; sourceTree = "<group>"; };
+		8D5E98451FC5663100B0A80E /* GKBaoxiuTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuTextViewCell.m; sourceTree = "<group>"; };
+		8D5E98471FC56D6900B0A80E /* GKNoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKNoneController.h; sourceTree = "<group>"; };
+		8D5E98481FC56D6900B0A80E /* GKNoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKNoneController.m; sourceTree = "<group>"; };
+		8D5E984A1FC5721600B0A80E /* GKBaoxiuResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuResultController.h; sourceTree = "<group>"; };
+		8D5E984B1FC5721600B0A80E /* GKBaoxiuResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuResultController.m; sourceTree = "<group>"; };
+		8D5E98501FC6663400B0A80E /* GKNickController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKNickController.h; sourceTree = "<group>"; };
+		8D5E98511FC6663400B0A80E /* GKNickController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKNickController.m; sourceTree = "<group>"; };
+		8D5E98531FC66D7B00B0A80E /* YLBPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBPicker.m; sourceTree = "<group>"; };
+		8D5E98541FC66D7B00B0A80E /* YLBPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBPicker.h; sourceTree = "<group>"; };
+		8D5E98551FC66D7B00B0A80E /* YLBDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBDatePicker.h; sourceTree = "<group>"; };
+		8D5E98561FC66D7B00B0A80E /* YLBDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBDatePicker.m; sourceTree = "<group>"; };
+		8D5E985A1FC6791500B0A80E /* area.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		8D5E985B1FC6791500B0A80E /* city.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		8D5E985C1FC6791500B0A80E /* HZAreaPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZAreaPickerView.h; sourceTree = "<group>"; };
+		8D5E985D1FC6791500B0A80E /* HZAreaPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZAreaPickerView.m; sourceTree = "<group>"; };
+		8D5E985E1FC6791500B0A80E /* HZAreaPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZAreaPickerView.xib; sourceTree = "<group>"; };
+		8D5E985F1FC6791500B0A80E /* HZLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZLocation.h; sourceTree = "<group>"; };
+		8D5E98601FC6791500B0A80E /* HZLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZLocation.m; sourceTree = "<group>"; };
+		8D5E98661FC69DBD00B0A80E /* YLBNetworkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBNetworkingManager.m; sourceTree = "<group>"; };
+		8D5E98671FC69DBD00B0A80E /* YLBNetworkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBNetworkingManager.h; sourceTree = "<group>"; };
+		8D5E98691FC69FA400B0A80E /* GKProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKProgressHUD.h; sourceTree = "<group>"; };
+		8D5E986A1FC69FA400B0A80E /* GKProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKProgressHUD.m; sourceTree = "<group>"; };
+		8D5E986C1FC6C8B600B0A80E /* FMLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLocationManager.h; sourceTree = "<group>"; };
+		8D5E986D1FC6C8B600B0A80E /* FMLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLocationManager.m; sourceTree = "<group>"; };
+		8D5E986F1FC7B6E800B0A80E /* GKStateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKStateModel.h; sourceTree = "<group>"; };
+		8D5E98701FC7B6E800B0A80E /* GKStateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKStateModel.m; sourceTree = "<group>"; };
+		8D5E98721FC7BC7F00B0A80E /* GKBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaseModel.h; sourceTree = "<group>"; };
+		8D5E98731FC7BC7F00B0A80E /* GKBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaseModel.m; sourceTree = "<group>"; };
+		8D5E98751FC7C7FA00B0A80E /* GKPointAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPointAnnotation.h; sourceTree = "<group>"; };
+		8D5E98761FC7C7FA00B0A80E /* GKPointAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPointAnnotation.m; sourceTree = "<group>"; };
+		8D5E98781FC7CCA900B0A80E /* GKHomeBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKHomeBottomView.h; sourceTree = "<group>"; };
+		8D5E98791FC7CCA900B0A80E /* GKHomeBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKHomeBottomView.m; sourceTree = "<group>"; };
+		8D5E987B1FC7F51100B0A80E /* GKDeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDeviceModel.h; sourceTree = "<group>"; };
+		8D5E987C1FC7F51100B0A80E /* GKDeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDeviceModel.m; sourceTree = "<group>"; };
+		8D5E987E1FC8062100B0A80E /* GKPinglunModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunModel.h; sourceTree = "<group>"; };
+		8D5E987F1FC8062100B0A80E /* GKPinglunModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunModel.m; sourceTree = "<group>"; };
+		8D5E98811FC98AF500B0A80E /* GKChargeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKChargeController.h; sourceTree = "<group>"; };
+		8D5E98821FC98AF500B0A80E /* GKChargeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKChargeController.m; sourceTree = "<group>"; };
+		8D5E98841FC98B7F00B0A80E /* GKTerminalInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKTerminalInfoView.h; sourceTree = "<group>"; };
+		8D5E98851FC98B7F00B0A80E /* GKTerminalInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTerminalInfoView.m; sourceTree = "<group>"; };
+		8D5E98871FCA531600B0A80E /* GKPayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPayController.h; sourceTree = "<group>"; };
+		8D5E98881FCA531600B0A80E /* GKPayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPayController.m; sourceTree = "<group>"; };
+		8D5E988A1FCA534700B0A80E /* GKPayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPayCell.h; sourceTree = "<group>"; };
+		8D5E988B1FCA534700B0A80E /* GKPayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPayCell.m; sourceTree = "<group>"; };
+		8D5E988D1FCA5ACA00B0A80E /* GKSimpleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKSimpleCell.h; sourceTree = "<group>"; };
+		8D5E988E1FCA5ACA00B0A80E /* GKSimpleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKSimpleCell.m; sourceTree = "<group>"; };
+		8D5E988F1FCA5ACA00B0A80E /* GKSimpleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GKSimpleCell.xib; sourceTree = "<group>"; };
+		8D5E98921FCAB72A00B0A80E /* GKPersonalZhanController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPersonalZhanController.h; sourceTree = "<group>"; };
+		8D5E98931FCAB72A00B0A80E /* GKPersonalZhanController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPersonalZhanController.m; sourceTree = "<group>"; };
+		8D5E98951FCABD1000B0A80E /* GKPersonalZhanDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPersonalZhanDetailController.h; sourceTree = "<group>"; };
+		8D5E98961FCABD1000B0A80E /* GKPersonalZhanDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPersonalZhanDetailController.m; sourceTree = "<group>"; };
+		8D5E98981FCBE13900B0A80E /* GKPinglunTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunTopView.h; sourceTree = "<group>"; };
+		8D5E98991FCBE13900B0A80E /* GKPinglunTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunTopView.m; sourceTree = "<group>"; };
+		8D5E989B1FCBE1F500B0A80E /* GKPinglunLinkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunLinkView.h; sourceTree = "<group>"; };
+		8D5E989C1FCBE1F500B0A80E /* GKPinglunLinkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunLinkView.m; sourceTree = "<group>"; };
+		8D5E98A11FCBE47800B0A80E /* GKPinglunHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunHeaderView.h; sourceTree = "<group>"; };
+		8D5E98A21FCBE47800B0A80E /* GKPinglunHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunHeaderView.m; sourceTree = "<group>"; };
+		8D5E98A41FCBE5AA00B0A80E /* GKPinglunZanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunZanView.h; sourceTree = "<group>"; };
+		8D5E98A51FCBE5AA00B0A80E /* GKPinglunZanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunZanView.m; sourceTree = "<group>"; };
+		8D5E98A71FCBFBF800B0A80E /* GKTopicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKTopicModel.h; sourceTree = "<group>"; };
+		8D5E98A81FCBFBF800B0A80E /* GKTopicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTopicModel.m; sourceTree = "<group>"; };
+		8D5E98AA1FCBFF2800B0A80E /* GKPublishController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPublishController.h; sourceTree = "<group>"; };
+		8D5E98AB1FCBFF2800B0A80E /* GKPublishController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPublishController.m; sourceTree = "<group>"; };
+		8D5E98AD1FCC034700B0A80E /* YLBPhotoWall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBPhotoWall.m; sourceTree = "<group>"; };
+		8D5E98AE1FCC034700B0A80E /* YLBPhotoWall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBPhotoWall.h; sourceTree = "<group>"; };
+		8D5E98B01FCC4EE600B0A80E /* GKMyPurseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMyPurseController.h; sourceTree = "<group>"; };
+		8D5E98B11FCC4EE600B0A80E /* GKMyPurseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMyPurseController.m; sourceTree = "<group>"; };
+		8D5E98B31FCC4FDA00B0A80E /* GKMyBalanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMyBalanceController.h; sourceTree = "<group>"; };
+		8D5E98B41FCC4FDA00B0A80E /* GKMyBalanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMyBalanceController.m; sourceTree = "<group>"; };
+		8D5E98B61FCC523800B0A80E /* GKMyCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMyCardController.h; sourceTree = "<group>"; };
+		8D5E98B71FCC523800B0A80E /* GKMyCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMyCardController.m; sourceTree = "<group>"; };
+		8D5E98B91FCC52DF00B0A80E /* GKMyBillController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMyBillController.h; sourceTree = "<group>"; };
+		8D5E98BA1FCC52DF00B0A80E /* GKMyBillController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMyBillController.m; sourceTree = "<group>"; };
+		8D5E98BC1FCC58FB00B0A80E /* GKPayChargeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPayChargeController.h; sourceTree = "<group>"; };
+		8D5E98BD1FCC58FB00B0A80E /* GKPayChargeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPayChargeController.m; sourceTree = "<group>"; };
+		8D5E98BF1FCCFB6B00B0A80E /* GKDynamicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDynamicModel.h; sourceTree = "<group>"; };
+		8D5E98C01FCCFB6B00B0A80E /* GKDynamicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDynamicModel.m; sourceTree = "<group>"; };
+		8D5E98C21FCD45C900B0A80E /* FMUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMUserDefault.h; sourceTree = "<group>"; };
+		8D5E98C31FCD45C900B0A80E /* FMUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMUserDefault.m; sourceTree = "<group>"; };
+		8D5E98C51FCD605B00B0A80E /* GKChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKChatView.h; sourceTree = "<group>"; };
+		8D5E98C61FCD605B00B0A80E /* GKChatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKChatView.m; sourceTree = "<group>"; };
+		8D5E98CB1FCE8BE800B0A80E /* GKMyOrderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMyOrderController.h; sourceTree = "<group>"; };
+		8D5E98CC1FCE8BE800B0A80E /* GKMyOrderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMyOrderController.m; sourceTree = "<group>"; };
+		8D5E98CE1FCF9BC400B0A80E /* GKOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKOrderCell.h; sourceTree = "<group>"; };
+		8D5E98CF1FCF9BC400B0A80E /* GKOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKOrderCell.m; sourceTree = "<group>"; };
+		8D5E98D01FCF9BC400B0A80E /* GKOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GKOrderCell.xib; sourceTree = "<group>"; };
+		8D5E98D31FCFC3F600B0A80E /* GKPingjiaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPingjiaController.h; sourceTree = "<group>"; };
+		8D5E98D41FCFC3F600B0A80E /* GKPingjiaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPingjiaController.m; sourceTree = "<group>"; };
+		8D5E98D61FCFD6E400B0A80E /* GKStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKStarView.h; sourceTree = "<group>"; };
+		8D5E98D71FCFD6E400B0A80E /* GKStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKStarView.m; sourceTree = "<group>"; };
+		8D95FBF71FB57D1D00342702 /* FMGuoKongDianZhuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMGuoKongDianZhuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D95FBFA1FB57D1D00342702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D95FBFB1FB57D1D00342702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D95FC031FB57D1D00342702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D95FC081FB57D1D00342702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D95FC091FB57D1D00342702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D95FC111FB5A66A00342702 /* GKBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaseController.h; sourceTree = "<group>"; };
+		8D95FC121FB5A66A00342702 /* GKBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaseController.m; sourceTree = "<group>"; };
+		8D95FC151FB5A6E500342702 /* FMGuoKongDianZhuang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMGuoKongDianZhuang.pch; sourceTree = "<group>"; };
+		8D95FC331FBA870500342702 /* GKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKTabBarController.h; sourceTree = "<group>"; };
+		8D95FC341FBA870500342702 /* GKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTabBarController.m; sourceTree = "<group>"; };
+		8D95FC391FBA8CDF00342702 /* FMBubbleTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMBubbleTabbar.h; sourceTree = "<group>"; };
+		8D95FC3A1FBA8CDF00342702 /* FMBubbleTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMBubbleTabbar.m; sourceTree = "<group>"; };
+		8D95FC4C1FBA9AD100342702 /* GKMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMineController.h; sourceTree = "<group>"; };
+		8D95FC4D1FBA9AD100342702 /* GKMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMineController.m; sourceTree = "<group>"; };
+		8D95FC4F1FBA9AE200342702 /* GKHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKHomeController.h; sourceTree = "<group>"; };
+		8D95FC501FBA9AE200342702 /* GKHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKHomeController.m; sourceTree = "<group>"; };
+		8D95FC521FBA9AF400342702 /* GKCommunityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKCommunityController.h; sourceTree = "<group>"; };
+		8D95FC531FBA9AF400342702 /* GKCommunityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKCommunityController.m; sourceTree = "<group>"; };
+		8D95FC551FBA9B0300342702 /* GKPersonalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPersonalController.h; sourceTree = "<group>"; };
+		8D95FC561FBA9B0300342702 /* GKPersonalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPersonalController.m; sourceTree = "<group>"; };
+		8D95FC5E1FBAC15200342702 /* GKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKNavigationController.h; sourceTree = "<group>"; };
+		8D95FC5F1FBAC15200342702 /* GKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKNavigationController.m; sourceTree = "<group>"; };
+		8D95FC611FBBD93E00342702 /* GKIntroView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKIntroView.h; sourceTree = "<group>"; };
+		8D95FC621FBBD93E00342702 /* GKIntroView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKIntroView.m; sourceTree = "<group>"; };
+		8D95FC641FBBDEF000342702 /* UIButton+Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Tools.h"; sourceTree = "<group>"; };
+		8D95FC651FBBDEF000342702 /* UIButton+Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Tools.m"; sourceTree = "<group>"; };
+		8D95FC671FBBE9A700342702 /* GKAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAddressView.h; sourceTree = "<group>"; };
+		8D95FC681FBBE9A700342702 /* GKAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAddressView.m; sourceTree = "<group>"; };
+		8D95FC6A1FBBEC2100342702 /* GKStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKStatusView.h; sourceTree = "<group>"; };
+		8D95FC6B1FBBEC2100342702 /* GKStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKStatusView.m; sourceTree = "<group>"; };
+		8D95FC711FBC168A00342702 /* GKDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailController.h; sourceTree = "<group>"; };
+		8D95FC721FBC168A00342702 /* GKDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailController.m; sourceTree = "<group>"; };
+		8D95FC751FBC42EE00342702 /* GKHomePushTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKHomePushTransition.h; sourceTree = "<group>"; };
+		8D95FC761FBC42EE00342702 /* GKHomePushTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKHomePushTransition.m; sourceTree = "<group>"; };
+		8D95FC781FBD2A5800342702 /* GKDetailPopTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailPopTransition.h; sourceTree = "<group>"; };
+		8D95FC791FBD2A5800342702 /* GKDetailPopTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailPopTransition.m; sourceTree = "<group>"; };
+		8D95FC7B1FBD3F3600342702 /* GKLeftDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKLeftDetailController.h; sourceTree = "<group>"; };
+		8D95FC7C1FBD3F3600342702 /* GKLeftDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKLeftDetailController.m; sourceTree = "<group>"; };
+		8D95FC811FBD431400342702 /* GKBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaseCell.h; sourceTree = "<group>"; };
+		8D95FC821FBD431400342702 /* GKBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaseCell.m; sourceTree = "<group>"; };
+		8D95FC841FBD5F1A00342702 /* GKDetailSection0Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailSection0Cell.h; sourceTree = "<group>"; };
+		8D95FC851FBD5F1A00342702 /* GKDetailSection0Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailSection0Cell.m; sourceTree = "<group>"; };
+		8D95FC871FBD7A8300342702 /* GKDetailSection1Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailSection1Cell.h; sourceTree = "<group>"; };
+		8D95FC881FBD7A8300342702 /* GKDetailSection1Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailSection1Cell.m; sourceTree = "<group>"; };
+		8D95FC8A1FBD7FDF00342702 /* GKDetailSection2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailSection2Cell.h; sourceTree = "<group>"; };
+		8D95FC8B1FBD7FDF00342702 /* GKDetailSection2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailSection2Cell.m; sourceTree = "<group>"; };
+		8D95FC8D1FBD851700342702 /* GKRightDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKRightDetailController.h; sourceTree = "<group>"; };
+		8D95FC8E1FBD851700342702 /* GKRightDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKRightDetailController.m; sourceTree = "<group>"; };
+		8D95FC901FBD93A100342702 /* GKPinglunCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPinglunCell.h; sourceTree = "<group>"; };
+		8D95FC911FBD93A100342702 /* GKPinglunCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPinglunCell.m; sourceTree = "<group>"; };
+		8D95FC931FBE7C7100342702 /* GKButtonsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKButtonsView.h; sourceTree = "<group>"; };
+		8D95FC941FBE7C7100342702 /* GKButtonsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKButtonsView.m; sourceTree = "<group>"; };
+		8D95FC961FBE852E00342702 /* GKTopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKTopicCell.h; sourceTree = "<group>"; };
+		8D95FC971FBE852E00342702 /* GKTopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTopicCell.m; sourceTree = "<group>"; };
+		8D95FC981FBE852E00342702 /* GKTopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GKTopicCell.xib; sourceTree = "<group>"; };
+		8D95FC9B1FBE88C900342702 /* GKTopicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKTopicController.h; sourceTree = "<group>"; };
+		8D95FC9C1FBE88C900342702 /* GKTopicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTopicController.m; sourceTree = "<group>"; };
+		8D95FC9E1FBE914A00342702 /* GKDynamicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDynamicController.h; sourceTree = "<group>"; };
+		8D95FC9F1FBE914A00342702 /* GKDynamicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDynamicController.m; sourceTree = "<group>"; };
+		8D95FCA11FBEBAF900342702 /* GKDynamicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDynamicCell.h; sourceTree = "<group>"; };
+		8D95FCA21FBEBAF900342702 /* GKDynamicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDynamicCell.m; sourceTree = "<group>"; };
+		8D95FCA41FC2973600342702 /* GKPersonDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPersonDetailController.h; sourceTree = "<group>"; };
+		8D95FCA51FC2973600342702 /* GKPersonDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPersonDetailController.m; sourceTree = "<group>"; };
+		8D95FCA71FC2A19C00342702 /* GKInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKInputCell.h; sourceTree = "<group>"; };
+		8D95FCA81FC2A19C00342702 /* GKInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKInputCell.m; sourceTree = "<group>"; };
+		8D95FCAA1FC2ACB000342702 /* GKBaseTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaseTextField.h; sourceTree = "<group>"; };
+		8D95FCAB1FC2ACB000342702 /* GKBaseTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaseTextField.m; sourceTree = "<group>"; };
+		8D95FCB01FC2CA7F00342702 /* GKPersonalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKPersonalCell.h; sourceTree = "<group>"; };
+		8D95FCB11FC2CA7F00342702 /* GKPersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPersonalCell.m; sourceTree = "<group>"; };
+		8D95FCB21FC2CA7F00342702 /* GKPersonalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GKPersonalCell.xib; sourceTree = "<group>"; };
+		8D95FCB51FC2D59A00342702 /* GKMineInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKMineInfoController.h; sourceTree = "<group>"; };
+		8D95FCB61FC2D59A00342702 /* GKMineInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKMineInfoController.m; sourceTree = "<group>"; };
+		8D95FCBC1FC2DB9000342702 /* GKLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKLoginController.h; sourceTree = "<group>"; };
+		8D95FCBD1FC2DB9000342702 /* GKLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKLoginController.m; sourceTree = "<group>"; };
+		8D95FCC21FC2E93B00342702 /* GKInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKInputView.h; sourceTree = "<group>"; };
+		8D95FCC31FC2E93B00342702 /* GKInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKInputView.m; sourceTree = "<group>"; };
+		8D95FCC51FC3CBA500342702 /* GKSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKSearchController.h; sourceTree = "<group>"; };
+		8D95FCC61FC3CBA500342702 /* GKSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKSearchController.m; sourceTree = "<group>"; };
+		8D95FCC81FC3D95200342702 /* GKSearchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKSearchCell.h; sourceTree = "<group>"; };
+		8D95FCC91FC3D95200342702 /* GKSearchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKSearchCell.m; sourceTree = "<group>"; };
+		8D95FCCB1FC3E2AB00342702 /* GKSortView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKSortView.h; sourceTree = "<group>"; };
+		8D95FCCC1FC3E2AC00342702 /* GKSortView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKSortView.m; sourceTree = "<group>"; };
+		8D95FCCE1FC400D300342702 /* GKFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKFilterView.h; sourceTree = "<group>"; };
+		8D95FCCF1FC400D300342702 /* GKFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKFilterView.m; sourceTree = "<group>"; };
+		8D95FCD11FC401A400342702 /* GKFlowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKFlowView.h; sourceTree = "<group>"; };
+		8D95FCD21FC401A400342702 /* GKFlowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKFlowView.m; sourceTree = "<group>"; };
+		8DA3B5461FFB59BA00CD4E06 /* GKChangePwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKChangePwdController.h; sourceTree = "<group>"; };
+		8DA3B5471FFB59BA00CD4E06 /* GKChangePwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKChangePwdController.m; sourceTree = "<group>"; };
+		8DA3B5491FFB5D3900CD4E06 /* GKRealAuthController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKRealAuthController.h; sourceTree = "<group>"; };
+		8DA3B54A1FFB5D3900CD4E06 /* GKRealAuthController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKRealAuthController.m; sourceTree = "<group>"; };
+		8DA3B54C1FFB69BB00CD4E06 /* GKBindPhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBindPhoneController.h; sourceTree = "<group>"; };
+		8DA3B54D1FFB69BB00CD4E06 /* GKBindPhoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBindPhoneController.m; sourceTree = "<group>"; };
+		8DAF876B1FF0E02500ECD9A5 /* FMScanController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMScanController.h; sourceTree = "<group>"; };
+		8DAF876C1FF0E02500ECD9A5 /* FMScanController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScanController.m; sourceTree = "<group>"; };
+		8DAF876E1FF0E04D00ECD9A5 /* FMScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMScanView.h; sourceTree = "<group>"; };
+		8DAF876F1FF0E04D00ECD9A5 /* FMScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScanView.m; sourceTree = "<group>"; };
+		8DAF87831FF3357E00ECD9A5 /* GKCarSupportView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKCarSupportView.h; sourceTree = "<group>"; };
+		8DAF87841FF3357E00ECD9A5 /* GKCarSupportView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKCarSupportView.m; sourceTree = "<group>"; };
+		8DAF87861FF3392A00ECD9A5 /* GKDetailSection3Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKDetailSection3Cell.h; sourceTree = "<group>"; };
+		8DAF87871FF3392A00ECD9A5 /* GKDetailSection3Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKDetailSection3Cell.m; sourceTree = "<group>"; };
+		8DAF87891FF380AE00ECD9A5 /* GKBaoxiuResultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKBaoxiuResultCell.h; sourceTree = "<group>"; };
+		8DAF878A1FF380AE00ECD9A5 /* GKBaoxiuResultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKBaoxiuResultCell.m; sourceTree = "<group>"; };
+		96EF2D2C7401BEAE2130B44C /* Pods-FMGuoKongDianZhuang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMGuoKongDianZhuang.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMGuoKongDianZhuang/Pods-FMGuoKongDianZhuang.release.xcconfig"; sourceTree = "<group>"; };
+		AE4B4694FDA7C0160EB2A43B /* libPods-FMGuoKongDianZhuang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMGuoKongDianZhuang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D95FBF41FB57D1D00342702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D06C2C41FFE110D00B814C1 /* Security.framework in Frameworks */,
+				8D06C2C21FFE110000B814C1 /* libsqlite3.0.tbd in Frameworks */,
+				8D06C2BE1FFE100400B814C1 /* libWeChatSDK.a in Frameworks */,
+				8D06C2C01FFE100400B814C1 /* AlipaySDK.framework in Frameworks */,
+				8D06C2A51FFCCBAB00B814C1 /* CFNetwork.framework in Frameworks */,
+				8D06C2A31FFCCBA200B814C1 /* CoreMotion.framework in Frameworks */,
+				8D06C2A11FFCCB5D00B814C1 /* CoreTelephony.framework in Frameworks */,
+				8D06C29F1FFCCB4200B814C1 /* libz.tbd in Frameworks */,
+				8D06C29D1FFCCB3900B814C1 /* libc++.tbd in Frameworks */,
+				4B320C01FEE1B6CB8119C209 /* libPods-FMGuoKongDianZhuang.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE7D9B0FD0BD1A7386D9B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D06C2C31FFE110D00B814C1 /* Security.framework */,
+				8D06C2C11FFE110000B814C1 /* libsqlite3.0.tbd */,
+				8D06C2A41FFCCBAB00B814C1 /* CFNetwork.framework */,
+				8D06C2A21FFCCBA100B814C1 /* CoreMotion.framework */,
+				8D06C2A01FFCCB5D00B814C1 /* CoreTelephony.framework */,
+				8D06C29E1FFCCB4200B814C1 /* libz.tbd */,
+				8D06C29C1FFCCB3900B814C1 /* libc++.tbd */,
+				AE4B4694FDA7C0160EB2A43B /* libPods-FMGuoKongDianZhuang.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57239BF466BD09CE44A80A56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A641D014E05FC92325700D2 /* Pods-FMGuoKongDianZhuang.debug.xcconfig */,
+				96EF2D2C7401BEAE2130B44C /* Pods-FMGuoKongDianZhuang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D06C2B41FFE100400B814C1 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				8D06C2B51FFE100400B814C1 /* WXApi.h */,
+				8D06C2B61FFE100400B814C1 /* WXApiObject.h */,
+				8D06C2B71FFE100400B814C1 /* README.txt */,
+				8D06C2B81FFE100400B814C1 /* WechatAuthSDK.h */,
+				8D06C2B91FFE100400B814C1 /* libWeChatSDK.a */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		8D06C2BA1FFE100400B814C1 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				8D06C2BB1FFE100400B814C1 /* AlipaySDK.bundle */,
+				8D06C2BC1FFE100400B814C1 /* AlipaySDK.framework */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		8D5E97FC1FC525A700B0A80E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8D06C2BA1FFE100400B814C1 /* Alipay */,
+				8D06C2B41FFE100400B814C1 /* Wechat */,
+				8D5E98AE1FCC034700B0A80E /* YLBPhotoWall.h */,
+				8D5E98AD1FCC034700B0A80E /* YLBPhotoWall.m */,
+				8D5E98671FC69DBD00B0A80E /* YLBNetworkingManager.h */,
+				8D5E98661FC69DBD00B0A80E /* YLBNetworkingManager.m */,
+				8D5E98591FC6791500B0A80E /* CityPicker */,
+				8D5E98551FC66D7B00B0A80E /* YLBDatePicker.h */,
+				8D5E98561FC66D7B00B0A80E /* YLBDatePicker.m */,
+				8D5E98541FC66D7B00B0A80E /* YLBPicker.h */,
+				8D5E98531FC66D7B00B0A80E /* YLBPicker.m */,
+				8D5E97FD1FC525BB00B0A80E /* FMDropToast.h */,
+				8D5E97FE1FC525BB00B0A80E /* FMDropToast.m */,
+				8D5E98691FC69FA400B0A80E /* GKProgressHUD.h */,
+				8D5E986A1FC69FA400B0A80E /* GKProgressHUD.m */,
+				8D5E986C1FC6C8B600B0A80E /* FMLocationManager.h */,
+				8D5E986D1FC6C8B600B0A80E /* FMLocationManager.m */,
+				8D5E98C21FCD45C900B0A80E /* FMUserDefault.h */,
+				8D5E98C31FCD45C900B0A80E /* FMUserDefault.m */,
+				8D5E98D61FCFD6E400B0A80E /* GKStarView.h */,
+				8D5E98D71FCFD6E400B0A80E /* GKStarView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8D5E98591FC6791500B0A80E /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E985A1FC6791500B0A80E /* area.plist */,
+				8D5E985B1FC6791500B0A80E /* city.plist */,
+				8D5E985C1FC6791500B0A80E /* HZAreaPickerView.h */,
+				8D5E985D1FC6791500B0A80E /* HZAreaPickerView.m */,
+				8D5E985E1FC6791500B0A80E /* HZAreaPickerView.xib */,
+				8D5E985F1FC6791500B0A80E /* HZLocation.h */,
+				8D5E98601FC6791500B0A80E /* HZLocation.m */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		8D95FBEE1FB57D1D00342702 = {
+			isa = PBXGroup;
+			children = (
+				8D5E97FC1FC525A700B0A80E /* Other */,
+				8D95FCB81FC2DB7300342702 /* 登录 */,
+				8D95FC641FBBDEF000342702 /* UIButton+Tools.h */,
+				8D95FC651FBBDEF000342702 /* UIButton+Tools.m */,
+				8D95FC5A1FBABEBA00342702 /* 扫码 */,
+				8D95FC441FBA9AB600342702 /* 个人桩 */,
+				8D95FC401FBA9AB600342702 /* 社区 */,
+				8D95FC481FBA9AB600342702 /* 首页 */,
+				8D95FC3C1FBA9AB600342702 /* 我的 */,
+				8D95FC101FB5A65500342702 /* Base */,
+				8D95FBF91FB57D1D00342702 /* FMGuoKongDianZhuang */,
+				8D95FBF81FB57D1D00342702 /* Products */,
+				57239BF466BD09CE44A80A56 /* Pods */,
+				1BE7D9B0FD0BD1A7386D9B74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D95FBF81FB57D1D00342702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FBF71FB57D1D00342702 /* FMGuoKongDianZhuang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D95FBF91FB57D1D00342702 /* FMGuoKongDianZhuang */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FBFA1FB57D1D00342702 /* AppDelegate.h */,
+				8D95FBFB1FB57D1D00342702 /* AppDelegate.m */,
+				8D95FC031FB57D1D00342702 /* Assets.xcassets */,
+				8D95FC081FB57D1D00342702 /* Info.plist */,
+				8D95FC091FB57D1D00342702 /* main.m */,
+				8D95FC151FB5A6E500342702 /* FMGuoKongDianZhuang.pch */,
+			);
+			path = FMGuoKongDianZhuang;
+			sourceTree = "<group>";
+		};
+		8D95FC101FB5A65500342702 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E98471FC56D6900B0A80E /* GKNoneController.h */,
+				8D5E98481FC56D6900B0A80E /* GKNoneController.m */,
+				8D95FC111FB5A66A00342702 /* GKBaseController.h */,
+				8D95FC121FB5A66A00342702 /* GKBaseController.m */,
+				8D95FC331FBA870500342702 /* GKTabBarController.h */,
+				8D95FC341FBA870500342702 /* GKTabBarController.m */,
+				8D95FC391FBA8CDF00342702 /* FMBubbleTabbar.h */,
+				8D95FC3A1FBA8CDF00342702 /* FMBubbleTabbar.m */,
+				8D95FC5E1FBAC15200342702 /* GKNavigationController.h */,
+				8D95FC5F1FBAC15200342702 /* GKNavigationController.m */,
+				8D95FC811FBD431400342702 /* GKBaseCell.h */,
+				8D95FC821FBD431400342702 /* GKBaseCell.m */,
+				8D95FCAA1FC2ACB000342702 /* GKBaseTextField.h */,
+				8D95FCAB1FC2ACB000342702 /* GKBaseTextField.m */,
+				8D5E98721FC7BC7F00B0A80E /* GKBaseModel.h */,
+				8D5E98731FC7BC7F00B0A80E /* GKBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8D95FC3C1FBA9AB600342702 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC3D1FBA9AB600342702 /* Controller */,
+				8D95FC3E1FBA9AB600342702 /* Model */,
+				8D95FC3F1FBA9AB600342702 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		8D95FC3D1FBA9AB600342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC4C1FBA9AD100342702 /* GKMineController.h */,
+				8D95FC4D1FBA9AD100342702 /* GKMineController.m */,
+				8D95FCB51FC2D59A00342702 /* GKMineInfoController.h */,
+				8D95FCB61FC2D59A00342702 /* GKMineInfoController.m */,
+				8D5E98501FC6663400B0A80E /* GKNickController.h */,
+				8D5E98511FC6663400B0A80E /* GKNickController.m */,
+				8D5E98B01FCC4EE600B0A80E /* GKMyPurseController.h */,
+				8D5E98B11FCC4EE600B0A80E /* GKMyPurseController.m */,
+				8D5E98B31FCC4FDA00B0A80E /* GKMyBalanceController.h */,
+				8D5E98B41FCC4FDA00B0A80E /* GKMyBalanceController.m */,
+				8D5E98B61FCC523800B0A80E /* GKMyCardController.h */,
+				8D5E98B71FCC523800B0A80E /* GKMyCardController.m */,
+				8D5E98B91FCC52DF00B0A80E /* GKMyBillController.h */,
+				8D5E98BA1FCC52DF00B0A80E /* GKMyBillController.m */,
+				8D5E98BC1FCC58FB00B0A80E /* GKPayChargeController.h */,
+				8D5E98BD1FCC58FB00B0A80E /* GKPayChargeController.m */,
+				8D5E98CB1FCE8BE800B0A80E /* GKMyOrderController.h */,
+				8D5E98CC1FCE8BE800B0A80E /* GKMyOrderController.m */,
+				8D5E98D31FCFC3F600B0A80E /* GKPingjiaController.h */,
+				8D5E98D41FCFC3F600B0A80E /* GKPingjiaController.m */,
+				8DA3B5461FFB59BA00CD4E06 /* GKChangePwdController.h */,
+				8DA3B5471FFB59BA00CD4E06 /* GKChangePwdController.m */,
+				8DA3B5491FFB5D3900CD4E06 /* GKRealAuthController.h */,
+				8DA3B54A1FFB5D3900CD4E06 /* GKRealAuthController.m */,
+				8DA3B54C1FFB69BB00CD4E06 /* GKBindPhoneController.h */,
+				8DA3B54D1FFB69BB00CD4E06 /* GKBindPhoneController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FC3E1FBA9AB600342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FC3F1FBA9AB600342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FCB01FC2CA7F00342702 /* GKPersonalCell.h */,
+				8D95FCB11FC2CA7F00342702 /* GKPersonalCell.m */,
+				8D95FCB21FC2CA7F00342702 /* GKPersonalCell.xib */,
+				8D5E98CE1FCF9BC400B0A80E /* GKOrderCell.h */,
+				8D5E98CF1FCF9BC400B0A80E /* GKOrderCell.m */,
+				8D5E98D01FCF9BC400B0A80E /* GKOrderCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D95FC401FBA9AB600342702 /* 社区 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC411FBA9AB600342702 /* Controller */,
+				8D95FC421FBA9AB600342702 /* Model */,
+				8D95FC431FBA9AB600342702 /* View */,
+			);
+			path = "社区";
+			sourceTree = "<group>";
+		};
+		8D95FC411FBA9AB600342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC521FBA9AF400342702 /* GKCommunityController.h */,
+				8D95FC531FBA9AF400342702 /* GKCommunityController.m */,
+				8D95FC9B1FBE88C900342702 /* GKTopicController.h */,
+				8D95FC9C1FBE88C900342702 /* GKTopicController.m */,
+				8D95FC9E1FBE914A00342702 /* GKDynamicController.h */,
+				8D95FC9F1FBE914A00342702 /* GKDynamicController.m */,
+				8D5E98AA1FCBFF2800B0A80E /* GKPublishController.h */,
+				8D5E98AB1FCBFF2800B0A80E /* GKPublishController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FC421FBA9AB600342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E98A71FCBFBF800B0A80E /* GKTopicModel.h */,
+				8D5E98A81FCBFBF800B0A80E /* GKTopicModel.m */,
+				8D5E98BF1FCCFB6B00B0A80E /* GKDynamicModel.h */,
+				8D5E98C01FCCFB6B00B0A80E /* GKDynamicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FC431FBA9AB600342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC931FBE7C7100342702 /* GKButtonsView.h */,
+				8D95FC941FBE7C7100342702 /* GKButtonsView.m */,
+				8D95FC961FBE852E00342702 /* GKTopicCell.h */,
+				8D95FC971FBE852E00342702 /* GKTopicCell.m */,
+				8D95FC981FBE852E00342702 /* GKTopicCell.xib */,
+				8D95FCA11FBEBAF900342702 /* GKDynamicCell.h */,
+				8D95FCA21FBEBAF900342702 /* GKDynamicCell.m */,
+				8D5E98981FCBE13900B0A80E /* GKPinglunTopView.h */,
+				8D5E98991FCBE13900B0A80E /* GKPinglunTopView.m */,
+				8D5E989B1FCBE1F500B0A80E /* GKPinglunLinkView.h */,
+				8D5E989C1FCBE1F500B0A80E /* GKPinglunLinkView.m */,
+				8D5E98A11FCBE47800B0A80E /* GKPinglunHeaderView.h */,
+				8D5E98A21FCBE47800B0A80E /* GKPinglunHeaderView.m */,
+				8D5E98A41FCBE5AA00B0A80E /* GKPinglunZanView.h */,
+				8D5E98A51FCBE5AA00B0A80E /* GKPinglunZanView.m */,
+				8D5E98C51FCD605B00B0A80E /* GKChatView.h */,
+				8D5E98C61FCD605B00B0A80E /* GKChatView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D95FC441FBA9AB600342702 /* 个人桩 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC451FBA9AB600342702 /* Controller */,
+				8D95FC461FBA9AB600342702 /* Model */,
+				8D95FC471FBA9AB600342702 /* View */,
+			);
+			path = "个人桩";
+			sourceTree = "<group>";
+		};
+		8D95FC451FBA9AB600342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC551FBA9B0300342702 /* GKPersonalController.h */,
+				8D95FC561FBA9B0300342702 /* GKPersonalController.m */,
+				8D95FCA41FC2973600342702 /* GKPersonDetailController.h */,
+				8D95FCA51FC2973600342702 /* GKPersonDetailController.m */,
+				8D5E98921FCAB72A00B0A80E /* GKPersonalZhanController.h */,
+				8D5E98931FCAB72A00B0A80E /* GKPersonalZhanController.m */,
+				8D5E98951FCABD1000B0A80E /* GKPersonalZhanDetailController.h */,
+				8D5E98961FCABD1000B0A80E /* GKPersonalZhanDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FC461FBA9AB600342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FC471FBA9AB600342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FCA71FC2A19C00342702 /* GKInputCell.h */,
+				8D95FCA81FC2A19C00342702 /* GKInputCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D95FC481FBA9AB600342702 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC741FBC42D700342702 /* Transition */,
+				8D95FC491FBA9AB600342702 /* Controller */,
+				8D95FC4A1FBA9AB600342702 /* Model */,
+				8D95FC4B1FBA9AB600342702 /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8D95FC491FBA9AB600342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC4F1FBA9AE200342702 /* GKHomeController.h */,
+				8D95FC501FBA9AE200342702 /* GKHomeController.m */,
+				8D95FC711FBC168A00342702 /* GKDetailController.h */,
+				8D95FC721FBC168A00342702 /* GKDetailController.m */,
+				8D95FC7B1FBD3F3600342702 /* GKLeftDetailController.h */,
+				8D95FC7C1FBD3F3600342702 /* GKLeftDetailController.m */,
+				8D95FC8D1FBD851700342702 /* GKRightDetailController.h */,
+				8D95FC8E1FBD851700342702 /* GKRightDetailController.m */,
+				8D95FCC51FC3CBA500342702 /* GKSearchController.h */,
+				8D95FCC61FC3CBA500342702 /* GKSearchController.m */,
+				8D5E983E1FC55B8900B0A80E /* GKBaoxiuController.h */,
+				8D5E983F1FC55B8900B0A80E /* GKBaoxiuController.m */,
+				8D5E984A1FC5721600B0A80E /* GKBaoxiuResultController.h */,
+				8D5E984B1FC5721600B0A80E /* GKBaoxiuResultController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FC4A1FBA9AB600342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E986F1FC7B6E800B0A80E /* GKStateModel.h */,
+				8D5E98701FC7B6E800B0A80E /* GKStateModel.m */,
+				8D5E98751FC7C7FA00B0A80E /* GKPointAnnotation.h */,
+				8D5E98761FC7C7FA00B0A80E /* GKPointAnnotation.m */,
+				8D5E987B1FC7F51100B0A80E /* GKDeviceModel.h */,
+				8D5E987C1FC7F51100B0A80E /* GKDeviceModel.m */,
+				8D5E987E1FC8062100B0A80E /* GKPinglunModel.h */,
+				8D5E987F1FC8062100B0A80E /* GKPinglunModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FC4B1FBA9AB600342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF87831FF3357E00ECD9A5 /* GKCarSupportView.h */,
+				8DAF87841FF3357E00ECD9A5 /* GKCarSupportView.m */,
+				8D95FC611FBBD93E00342702 /* GKIntroView.h */,
+				8D95FC621FBBD93E00342702 /* GKIntroView.m */,
+				8D95FC671FBBE9A700342702 /* GKAddressView.h */,
+				8D95FC681FBBE9A700342702 /* GKAddressView.m */,
+				8D95FC6A1FBBEC2100342702 /* GKStatusView.h */,
+				8D95FC6B1FBBEC2100342702 /* GKStatusView.m */,
+				8D95FC841FBD5F1A00342702 /* GKDetailSection0Cell.h */,
+				8D95FC851FBD5F1A00342702 /* GKDetailSection0Cell.m */,
+				8D95FC871FBD7A8300342702 /* GKDetailSection1Cell.h */,
+				8D95FC881FBD7A8300342702 /* GKDetailSection1Cell.m */,
+				8D95FC8A1FBD7FDF00342702 /* GKDetailSection2Cell.h */,
+				8D95FC8B1FBD7FDF00342702 /* GKDetailSection2Cell.m */,
+				8DAF87861FF3392A00ECD9A5 /* GKDetailSection3Cell.h */,
+				8DAF87871FF3392A00ECD9A5 /* GKDetailSection3Cell.m */,
+				8D95FC901FBD93A100342702 /* GKPinglunCell.h */,
+				8D95FC911FBD93A100342702 /* GKPinglunCell.m */,
+				8D95FCC81FC3D95200342702 /* GKSearchCell.h */,
+				8D95FCC91FC3D95200342702 /* GKSearchCell.m */,
+				8D95FCCB1FC3E2AB00342702 /* GKSortView.h */,
+				8D95FCCC1FC3E2AC00342702 /* GKSortView.m */,
+				8D95FCCE1FC400D300342702 /* GKFilterView.h */,
+				8D95FCCF1FC400D300342702 /* GKFilterView.m */,
+				8D95FCD11FC401A400342702 /* GKFlowView.h */,
+				8D95FCD21FC401A400342702 /* GKFlowView.m */,
+				8D5E98391FC555CB00B0A80E /* GKBaoxiuCell.h */,
+				8D5E983A1FC555CB00B0A80E /* GKBaoxiuCell.m */,
+				8D5E983B1FC555CB00B0A80E /* GKBaoxiuCell.xib */,
+				8D5E98411FC5602400B0A80E /* GKBaoxiuInfoCell.h */,
+				8D5E98421FC5602400B0A80E /* GKBaoxiuInfoCell.m */,
+				8D5E98441FC5663100B0A80E /* GKBaoxiuTextViewCell.h */,
+				8D5E98451FC5663100B0A80E /* GKBaoxiuTextViewCell.m */,
+				8D5E98781FC7CCA900B0A80E /* GKHomeBottomView.h */,
+				8D5E98791FC7CCA900B0A80E /* GKHomeBottomView.m */,
+				8DAF87891FF380AE00ECD9A5 /* GKBaoxiuResultCell.h */,
+				8DAF878A1FF380AE00ECD9A5 /* GKBaoxiuResultCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D95FC5A1FBABEBA00342702 /* 扫码 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC5B1FBABEBA00342702 /* Controller */,
+				8D95FC5C1FBABEBA00342702 /* Model */,
+				8D95FC5D1FBABEBA00342702 /* View */,
+			);
+			path = "扫码";
+			sourceTree = "<group>";
+		};
+		8D95FC5B1FBABEBA00342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E98811FC98AF500B0A80E /* GKChargeController.h */,
+				8D5E98821FC98AF500B0A80E /* GKChargeController.m */,
+				8D5E98871FCA531600B0A80E /* GKPayController.h */,
+				8D5E98881FCA531600B0A80E /* GKPayController.m */,
+				8DAF876B1FF0E02500ECD9A5 /* FMScanController.h */,
+				8DAF876C1FF0E02500ECD9A5 /* FMScanController.m */,
+				8D06C2AA1FFDC43A00B814C1 /* GKPayResultController.h */,
+				8D06C2AB1FFDC43A00B814C1 /* GKPayResultController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FC5C1FBABEBA00342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FC5D1FBABEBA00342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E98841FC98B7F00B0A80E /* GKTerminalInfoView.h */,
+				8D5E98851FC98B7F00B0A80E /* GKTerminalInfoView.m */,
+				8D5E988A1FCA534700B0A80E /* GKPayCell.h */,
+				8D5E988B1FCA534700B0A80E /* GKPayCell.m */,
+				8D5E988D1FCA5ACA00B0A80E /* GKSimpleCell.h */,
+				8D5E988E1FCA5ACA00B0A80E /* GKSimpleCell.m */,
+				8D5E988F1FCA5ACA00B0A80E /* GKSimpleCell.xib */,
+				8DAF876E1FF0E04D00ECD9A5 /* FMScanView.h */,
+				8DAF876F1FF0E04D00ECD9A5 /* FMScanView.m */,
+				8D06C2AD1FFDCD3F00B814C1 /* GKPayResultCell.h */,
+				8D06C2AE1FFDCD3F00B814C1 /* GKPayResultCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D95FC741FBC42D700342702 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FC751FBC42EE00342702 /* GKHomePushTransition.h */,
+				8D95FC761FBC42EE00342702 /* GKHomePushTransition.m */,
+				8D95FC781FBD2A5800342702 /* GKDetailPopTransition.h */,
+				8D95FC791FBD2A5800342702 /* GKDetailPopTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		8D95FCB81FC2DB7300342702 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FCB91FC2DB7300342702 /* Controller */,
+				8D95FCBA1FC2DB7300342702 /* Model */,
+				8D95FCBB1FC2DB7300342702 /* View */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		8D95FCB91FC2DB7300342702 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FCBC1FC2DB9000342702 /* GKLoginController.h */,
+				8D95FCBD1FC2DB9000342702 /* GKLoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D95FCBA1FC2DB7300342702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D95FCBB1FC2DB7300342702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D95FCC21FC2E93B00342702 /* GKInputView.h */,
+				8D95FCC31FC2E93B00342702 /* GKInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D95FBF61FB57D1D00342702 /* FMGuoKongDianZhuang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D95FC0D1FB57D1D00342702 /* Build configuration list for PBXNativeTarget "FMGuoKongDianZhuang" */;
+			buildPhases = (
+				D5A027A9C91DEAB747068C55 /* [CP] Check Pods Manifest.lock */,
+				8D95FBF31FB57D1D00342702 /* Sources */,
+				8D95FBF41FB57D1D00342702 /* Frameworks */,
+				8D95FBF51FB57D1D00342702 /* Resources */,
+				81D2E184A603F31886F76E8C /* [CP] Embed Pods Frameworks */,
+				1AF6655DB716D15CBC374849 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMGuoKongDianZhuang;
+			productName = FMGuoKongDianZhuang;
+			productReference = 8D95FBF71FB57D1D00342702 /* FMGuoKongDianZhuang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D95FBEF1FB57D1D00342702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "范茂羽";
+				TargetAttributes = {
+					8D95FBF61FB57D1D00342702 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D95FBF21FB57D1D00342702 /* Build configuration list for PBXProject "FMGuoKongDianZhuang" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D95FBEE1FB57D1D00342702;
+			productRefGroup = 8D95FBF81FB57D1D00342702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D95FBF61FB57D1D00342702 /* FMGuoKongDianZhuang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D95FBF51FB57D1D00342702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5E98D21FCF9BC400B0A80E /* GKOrderCell.xib in Resources */,
+				8D06C2BF1FFE100400B814C1 /* AlipaySDK.bundle in Resources */,
+				8D5E98641FC67B9000B0A80E /* area.plist in Resources */,
+				8D5E98651FC67B9000B0A80E /* city.plist in Resources */,
+				8D5E98631FC67B5400B0A80E /* HZAreaPickerView.xib in Resources */,
+				8D06C2BD1FFE100400B814C1 /* README.txt in Resources */,
+				8D95FC041FB57D1D00342702 /* Assets.xcassets in Resources */,
+				8D95FC9A1FBE852E00342702 /* GKTopicCell.xib in Resources */,
+				8D5E98911FCA5ACA00B0A80E /* GKSimpleCell.xib in Resources */,
+				8D95FCB41FC2CA7F00342702 /* GKPersonalCell.xib in Resources */,
+				8D5E983D1FC555CB00B0A80E /* GKBaoxiuCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF6655DB716D15CBC374849 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FMGuoKongDianZhuang/Pods-FMGuoKongDianZhuang-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMapNavi.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMGuoKongDianZhuang/Pods-FMGuoKongDianZhuang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D2E184A603F31886F76E8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMGuoKongDianZhuang/Pods-FMGuoKongDianZhuang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A027A9C91DEAB747068C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FMGuoKongDianZhuang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D95FBF31FB57D1D00342702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5E98D51FCFC3F600B0A80E /* GKPingjiaController.m in Sources */,
+				8D5E98611FC67A9500B0A80E /* HZAreaPickerView.m in Sources */,
+				8D5E98621FC67A9500B0A80E /* HZLocation.m in Sources */,
+				8D95FC7A1FBD2A5800342702 /* GKDetailPopTransition.m in Sources */,
+				8D5E98581FC66D7B00B0A80E /* YLBDatePicker.m in Sources */,
+				8D95FCB31FC2CA7F00342702 /* GKPersonalCell.m in Sources */,
+				8D5E98D81FCFD6E400B0A80E /* GKStarView.m in Sources */,
+				8D95FC691FBBE9A700342702 /* GKAddressView.m in Sources */,
+				8D95FCAC1FC2ACB000342702 /* GKBaseTextField.m in Sources */,
+				8DAF876D1FF0E02500ECD9A5 /* FMScanController.m in Sources */,
+				8D5E98B81FCC523800B0A80E /* GKMyCardController.m in Sources */,
+				8D5E98681FC69DBD00B0A80E /* YLBNetworkingManager.m in Sources */,
+				8D95FCBE1FC2DB9000342702 /* GKLoginController.m in Sources */,
+				8D5E98401FC55B8900B0A80E /* GKBaoxiuController.m in Sources */,
+				8D95FC3B1FBA8CDF00342702 /* FMBubbleTabbar.m in Sources */,
+				8D5E989D1FCBE1F500B0A80E /* GKPinglunLinkView.m in Sources */,
+				8D95FC631FBBD93E00342702 /* GKIntroView.m in Sources */,
+				8D5E98521FC6663400B0A80E /* GKNickController.m in Sources */,
+				8D5E98801FC8062100B0A80E /* GKPinglunModel.m in Sources */,
+				8D95FCCA1FC3D95200342702 /* GKSearchCell.m in Sources */,
+				8D5E98461FC5663100B0A80E /* GKBaoxiuTextViewCell.m in Sources */,
+				8D95FC571FBA9B0300342702 /* GKPersonalController.m in Sources */,
+				8D95FCD31FC401A400342702 /* GKFlowView.m in Sources */,
+				8D5E98891FCA531600B0A80E /* GKPayController.m in Sources */,
+				8D95FC6C1FBBEC2100342702 /* GKStatusView.m in Sources */,
+				8D95FC131FB5A66A00342702 /* GKBaseController.m in Sources */,
+				8D95FC8C1FBD7FE000342702 /* GKDetailSection2Cell.m in Sources */,
+				8D5E98C41FCD45C900B0A80E /* FMUserDefault.m in Sources */,
+				8DAF87851FF3357E00ECD9A5 /* GKCarSupportView.m in Sources */,
+				8D5E98CD1FCE8BE800B0A80E /* GKMyOrderController.m in Sources */,
+				8D95FCA31FBEBAF900342702 /* GKDynamicCell.m in Sources */,
+				8DA3B5481FFB59BA00CD4E06 /* GKChangePwdController.m in Sources */,
+				8D06C2AC1FFDC43A00B814C1 /* GKPayResultController.m in Sources */,
+				8D5E98C11FCCFB6B00B0A80E /* GKDynamicModel.m in Sources */,
+				8D5E98831FC98AF500B0A80E /* GKChargeController.m in Sources */,
+				8D5E98771FC7C7FA00B0A80E /* GKPointAnnotation.m in Sources */,
+				8D5E98491FC56D6900B0A80E /* GKNoneController.m in Sources */,
+				8D95FC601FBAC15200342702 /* GKNavigationController.m in Sources */,
+				8D95FC921FBD93A100342702 /* GKPinglunCell.m in Sources */,
+				8D5E98BB1FCC52DF00B0A80E /* GKMyBillController.m in Sources */,
+				8D95FCA91FC2A19C00342702 /* GKInputCell.m in Sources */,
+				8D95FC831FBD431400342702 /* GKBaseCell.m in Sources */,
+				8D5E98A91FCBFBF800B0A80E /* GKTopicModel.m in Sources */,
+				8D95FC771FBC42EE00342702 /* GKHomePushTransition.m in Sources */,
+				8D5E987A1FC7CCA900B0A80E /* GKHomeBottomView.m in Sources */,
+				8D5E98AF1FCC034800B0A80E /* YLBPhotoWall.m in Sources */,
+				8D5E98941FCAB72B00B0A80E /* GKPersonalZhanController.m in Sources */,
+				8DAF87701FF0E04D00ECD9A5 /* FMScanView.m in Sources */,
+				8D5E98C71FCD605B00B0A80E /* GKChatView.m in Sources */,
+				8D5E98D11FCF9BC400B0A80E /* GKOrderCell.m in Sources */,
+				8D95FC541FBA9AF400342702 /* GKCommunityController.m in Sources */,
+				8D5E98A31FCBE47800B0A80E /* GKPinglunHeaderView.m in Sources */,
+				8D5E989A1FCBE13900B0A80E /* GKPinglunTopView.m in Sources */,
+				8D5E98B21FCC4EE600B0A80E /* GKMyPurseController.m in Sources */,
+				8D95FC731FBC168A00342702 /* GKDetailController.m in Sources */,
+				8D5E98AC1FCBFF2800B0A80E /* GKPublishController.m in Sources */,
+				8D5E97FF1FC525BB00B0A80E /* FMDropToast.m in Sources */,
+				8D5E98431FC5602400B0A80E /* GKBaoxiuInfoCell.m in Sources */,
+				8D95FC4E1FBA9AD100342702 /* GKMineController.m in Sources */,
+				8D5E98861FC98B7F00B0A80E /* GKTerminalInfoView.m in Sources */,
+				8D5E98741FC7BC7F00B0A80E /* GKBaseModel.m in Sources */,
+				8D95FC511FBA9AE200342702 /* GKHomeController.m in Sources */,
+				8D5E986B1FC69FA400B0A80E /* GKProgressHUD.m in Sources */,
+				8D95FCC41FC2E93B00342702 /* GKInputView.m in Sources */,
+				8DA3B54E1FFB69BB00CD4E06 /* GKBindPhoneController.m in Sources */,
+				8DAF878B1FF380AE00ECD9A5 /* GKBaoxiuResultCell.m in Sources */,
+				8D95FC0A1FB57D1D00342702 /* main.m in Sources */,
+				8D5E98571FC66D7B00B0A80E /* YLBPicker.m in Sources */,
+				8D95FC661FBBDEF000342702 /* UIButton+Tools.m in Sources */,
+				8D95FCC71FC3CBA500342702 /* GKSearchController.m in Sources */,
+				8D95FCB71FC2D59A00342702 /* GKMineInfoController.m in Sources */,
+				8D5E987D1FC7F51100B0A80E /* GKDeviceModel.m in Sources */,
+				8D5E98BE1FCC58FB00B0A80E /* GKPayChargeController.m in Sources */,
+				8D95FC861FBD5F1B00342702 /* GKDetailSection0Cell.m in Sources */,
+				8DAF87881FF3392A00ECD9A5 /* GKDetailSection3Cell.m in Sources */,
+				8D06C2AF1FFDCD3F00B814C1 /* GKPayResultCell.m in Sources */,
+				8D5E98971FCABD1000B0A80E /* GKPersonalZhanDetailController.m in Sources */,
+				8D5E98711FC7B6E800B0A80E /* GKStateModel.m in Sources */,
+				8D5E984C1FC5721600B0A80E /* GKBaoxiuResultController.m in Sources */,
+				8D95FCA01FBE914A00342702 /* GKDynamicController.m in Sources */,
+				8D95FC7D1FBD3F3600342702 /* GKLeftDetailController.m in Sources */,
+				8D95FC9D1FBE88C900342702 /* GKTopicController.m in Sources */,
+				8D5E98901FCA5ACA00B0A80E /* GKSimpleCell.m in Sources */,
+				8D5E986E1FC6C8B600B0A80E /* FMLocationManager.m in Sources */,
+				8D95FC891FBD7A8300342702 /* GKDetailSection1Cell.m in Sources */,
+				8D5E98B51FCC4FDA00B0A80E /* GKMyBalanceController.m in Sources */,
+				8D5E983C1FC555CB00B0A80E /* GKBaoxiuCell.m in Sources */,
+				8D95FC991FBE852E00342702 /* GKTopicCell.m in Sources */,
+				8D5E98A61FCBE5AA00B0A80E /* GKPinglunZanView.m in Sources */,
+				8D5E988C1FCA534700B0A80E /* GKPayCell.m in Sources */,
+				8D95FC951FBE7C7200342702 /* GKButtonsView.m in Sources */,
+				8D95FBFC1FB57D1D00342702 /* AppDelegate.m in Sources */,
+				8D95FC351FBA870500342702 /* GKTabBarController.m in Sources */,
+				8D95FCD01FC400D300342702 /* GKFilterView.m in Sources */,
+				8D95FCCD1FC3E2AC00342702 /* GKSortView.m in Sources */,
+				8DA3B54B1FFB5D3900CD4E06 /* GKRealAuthController.m in Sources */,
+				8D95FC8F1FBD851700342702 /* GKRightDetailController.m in Sources */,
+				8D95FCA61FC2973700342702 /* GKPersonDetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D95FC0B1FB57D1D00342702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D95FC0C1FB57D1D00342702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D95FC0E1FB57D1D00342702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A641D014E05FC92325700D2 /* Pods-FMGuoKongDianZhuang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V5YN3JGN3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Other",
+					"$(PROJECT_DIR)/Other/Alipay",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FMGuoKongDianZhuang/FMGuoKongDianZhuang.pch";
+				INFOPLIST_FILE = FMGuoKongDianZhuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Other/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanmaoyu.www.FMGuoKongDianZhuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D95FC0F1FB57D1D00342702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EF2D2C7401BEAE2130B44C /* Pods-FMGuoKongDianZhuang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V5YN3JGN3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Other",
+					"$(PROJECT_DIR)/Other/Alipay",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FMGuoKongDianZhuang/FMGuoKongDianZhuang.pch";
+				INFOPLIST_FILE = FMGuoKongDianZhuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Other/Wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanmaoyu.www.FMGuoKongDianZhuang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D95FBF21FB57D1D00342702 /* Build configuration list for PBXProject "FMGuoKongDianZhuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D95FC0B1FB57D1D00342702 /* Debug */,
+				8D95FC0C1FB57D1D00342702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D95FC0D1FB57D1D00342702 /* Build configuration list for PBXNativeTarget "FMGuoKongDianZhuang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D95FC0E1FB57D1D00342702 /* Debug */,
+				8D95FC0F1FB57D1D00342702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D95FBEF1FB57D1D00342702 /* Project object */;
+}

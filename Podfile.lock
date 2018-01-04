@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap-NO-IDFA (5.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.4.2)
+  - AMapLocation-NO-IDFA (2.5.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapNavi-NO-IDFA (5.4.0):
+    - AMap3DMap-NO-IDFA (>= 5.6.0)
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.5.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - FMTools (0.0.2):
+    - MBProgressHUD
+  - IQKeyboardManager (5.0.7)
+  - MBProgressHUD (1.1.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - TTTAttributedLabel (2.0.0)
+  - TZImagePickerController (1.9.8)
+  - UMengUShare/Core (6.4.8):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8)
+  - UMengUShare/Social/ReducedQQ (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap3DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - AMapNavi-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - FMTools
+  - IQKeyboardManager
+  - SDWebImage
+  - TTTAttributedLabel
+  - TZImagePickerController
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap-NO-IDFA: c47a44b45eb16b5c8cffc5d1f0699aea727e01a6
+  AMapFoundation-NO-IDFA: 3b9ce87abc6a37c718cc320687469d0b74d5c953
+  AMapLocation-NO-IDFA: be669085a8cc0d22820022fc61d58811d24b4e3a
+  AMapNavi-NO-IDFA: 1cfa3ab39cb2bfafc99569cbf5e0d5ec7fa0eff9
+  AMapSearch-NO-IDFA: 028a238a14fcb5f1ceda776a996f0af8f22757c4
+  FMTools: 08fce26a6e93656813f44f216dbfe1784d770713
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
+  UMengUShare: 7a0ab762ccd445ccfcf11bde8e7f81b29b9f5e1c
+
+PODFILE CHECKSUM: 38206db96336beba2d1b813ddd161c8acf4f6d51
+
+COCOAPODS: 1.3.1

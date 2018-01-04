@@ -1,0 +1,17 @@
+//
+//  GKStarView.h
+//  FMGuoKongDianZhuang
+//
+//  Created by 范茂羽 on 2017/11/30.
+//  Copyright © 2017年 范茂羽. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface GKStarView : UIView
+
+- (instancetype)initWithFrame:(CGRect)frame type:(NSString*)type;
+
+-(void)starAtIndex:(NSInteger)index type:(NSString*)type;
+
+@end
